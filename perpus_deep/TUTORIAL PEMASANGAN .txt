@@ -1,0 +1,26 @@
+1. Pastikan xampp nyala
+2. buat database di php my admin dengan nama perpus_mobile
+3. import database yang sudah disediakan (dalam folder rar)
+4. Masuk ke folder via vs code
+5. buka terminal vs code
+6. ketik kode "php artisan storage:link" tanpa tanda kutip lalu enter
+7. setelah itu new terminal lalu ketik "npm run dev" tanpa tanda kutip
+8. setelah itu new terminal lalu ketik "php artisan serve" tanpa tanda kutip 
+
+list user & admin 
+
+email: 112@gmail.com
+password: 123456 
+role: admin 
+
+email: 113@gmail.com
+password: 12345678
+role: user/anggota 
+
+penjelasan singkat, user Ketika dalam mode web hanya bisa register dan sekedar melihat dashboard Utama sedangkan admin dalam mode web berada dalam posisi super admin(all fitur crud)
+
+terdapat 2 web dan 1 mobile
+
+web 1 berfokus pada super admin
+web 2 berfokus pada perpustakaan online (karna tanpa login)
+mobile berfokus pada user karna user dapat meminjam,memesan dll
